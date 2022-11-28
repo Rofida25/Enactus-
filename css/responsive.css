@@ -1,0 +1,288 @@
+@media only screen and (max-width:900px) {
+    /*#region nav*/
+    .checkbtn {
+        display: block;
+        float: right;
+        order: 2;
+    }
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,
+    a.active {
+        background: none;
+        color: #fbcd28;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    /*#endregion */
+    /*#region Header*/
+    .carousel-caption h1,
+    .carousel-caption p {
+        color: #fff;
+        text-align: left;
+    }
+    .carousel-caption h1 {
+        font-size: 3rem;
+    }
+    .carousel-caption h1 span {
+        color: #fbcd28;
+    }
+    .carousel-caption p {
+        margin-bottom: 4rem;
+        font-size: 1.8rem;
+        width: 80%;
+    }
+    /*#endregion */
+    /*#region infosection*/
+    .p-grid {
+        grid-template-columns: 1fr;
+    }
+    .infosection .textdiv h1 {
+        color: #222;
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+    .infosection .textdiv h3 {
+        font-size: 1.5rem;
+    }
+    /*#endregion */
+    /* #region projectsection*/
+    .divcontent {
+        width: 80%;
+        min-height: 35rem;
+        margin: 1rem auto;
+    }
+    .project-content h3 {
+        font-size: 2rem;
+    }
+    .project-content p {
+        font-size: 1rem;
+        line-height: 2;
+    }
+    .divcontent img {
+        left: 5rem;
+        margin: 1rem 0;
+        height: 30rem;
+    }
+    /*#endregion */
+    /* #region commettesInfoSection*/
+    .commettesInfoSection .row:nth-child(even) {
+        width: 70%;
+    }
+    .commettesInfoSection .test-shape {
+        width: 15rem;
+        height: 15rem;
+    }
+    .commettesInfoSection .test-shape h1 {
+        font-size: 1.2rem;
+    }
+    .commettesInfoSection .test-shape p {
+        font-size: 1rem;
+        padding: .5rem 1rem;
+    }
+    /*#endregion */
+    /* ------------------- About Page ---------------------- */
+    /* #region about-section*/
+    .about-section .p-grid h1 {
+        font-size: 3rem;
+    }
+    .about-section .p-grid p {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+    /*#endregion */
+    /* #region teaminfo-section*/
+    /*#endregion */
+    .leader-info {
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+    }
+    .coreTeam-info {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .leader-info .p-card,
+    .coreTeam-info .p-card {
+        width: 50vw;
+        margin: auto;
+    }
+    .member-info .p-card {
+        width: 20vw;
+    }
+    /* ------------------- Apply form Page ---------------------- */
+    /* #region apply-form-section*/
+    .apply-form-section h1 {
+        font-size: 2rem;
+    }
+    .apply-form-section .form-paragraph {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+    .apply-form-section form {
+        width: 70%;
+    }
+    .apply-form-section form h3 {
+        font-size: 1.5rem;
+    }
+    .apply-form-section form table tr {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .apply-form-section .personal-question table,
+    .apply-form-section .general-question table {
+        margin: 0.2rem;
+    }
+    .personal-question table td,
+    .general-question table td {
+        padding: 0.5rem;
+    }
+    .personal-question table td input[type='number'] {
+        width: 50%;
+    }
+    /*#endregion */
+}
+
+@media only screen and (max-width:600px) {
+    /*#region Header*/
+    .carousel-caption h1,
+    .carousel-caption p {
+        color: #fff;
+        text-align: center;
+        width: 80%;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+    .carousel-caption p {
+        margin-bottom: 4rem;
+        font-size: 1.5rem;
+    }
+    /*#endregion */
+    /*#region infosection*/
+    .p-grid {
+        grid-template-columns: 1fr;
+    }
+    .infosection .textdiv h1 {
+        color: #222;
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+    .infosection .textdiv h3 {
+        font-size: 1.5rem;
+    }
+    .infosection .carddiv .card,
+    .infosection .carddiv .card:last-child {
+        align-self: center;
+    }
+    /*#endregion */
+    /* #region projectsection*/
+    .divcontent {
+        width: 80%;
+        min-height: 35rem;
+        margin: 1rem auto;
+        flex-direction: column;
+    }
+    .project-content h3,
+    .project-content p {
+        padding: 1rem;
+        text-align: center;
+    }
+    .project-content button {
+        margin: auto;
+    }
+    .divcontent img {
+        left: 0rem;
+        margin: 1rem 0;
+        height: 30rem;
+    }
+    /*#endregion */
+    /* #region commettesInfoSection*/
+    .commettesInfoSection .committesContent {
+        padding: 1rem;
+    }
+    .commettesInfoSection .row {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+    .commettesInfoSection .row:nth-child(odd) {
+        width: 100%;
+    }
+    .commettesInfoSection .row:nth-child(even) {
+        width: 100%;
+    }
+    .commettesInfoSection .test-shape {
+        width: 20rem;
+        height: 20rem;
+    }
+    .commettesInfoSection .test-shape h1 {
+        font-size: 2rem;
+    }
+    .commettesInfoSection .test-shape p {
+        text-align: center;
+        font-size: 1.3rem;
+        padding: 1rem 1rem;
+    }
+    /*#endregion */
+    /* #region Footer*/
+    footer .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 1rem;
+    }
+    footer .row div {
+        margin: 1rem 0;
+    }
+    footer .col1 img,
+    footer .col3 form button {
+        display: block;
+        margin: auto;
+    }
+    footer .col1 ul {
+        justify-content: center;
+    }
+    footer .col1 ul li a {
+        font-size: 2rem;
+    }
+    footer .col1 p,
+    footer .col2 ul li a,
+    footer .copyright p {
+        width: 100%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    footer .col3 h2 {
+        text-align: center;
+    }
+    /*#endregion */
+    /* ------------------- About Page ---------------------- */
+    /* #region about-section*/
+    .about-section .p-grid h1 {
+        padding-top: 5rem;
+        font-size: 3rem;
+    }
+    .about-section .p-grid p {
+        font-size: 1.2rem;
+        width: 90%;
+    }
+    /*#endregion */
+    /* #region teaminfo-section*/
+    /*#endregion */
+}

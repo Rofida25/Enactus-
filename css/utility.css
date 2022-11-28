@@ -1,0 +1,206 @@
+:root {
+    --primary-color: #fbcd28
+}
+
+.p-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.p-text-center {
+    text-align: center;
+}
+
+.p-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.p-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.p-card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 30px 10px rgba(0, 0, 0, 0.p-2);
+    margin: 10px;
+    padding: 20px;
+}
+
+.p-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.p-btn-outline {
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.p-btn:hover {
+    transform: scale(0.p-9);
+    transition: all 0.p-5s ease;
+}
+
+
+/* background & colored buttons*/
+
+.p-bg-primary,
+.p-btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.p-bg-secondary,
+.p-btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.p-bg-dark,
+.p-btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.p-bg-light,
+.p-btn-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+.p-bg-primary a,
+.p-btn-primary a,
+.p-bg-secondary a,
+.p-btn-secondary a,
+.p-bg-dark a,
+.p-btn-dark a {
+    color: #fff;
+}
+
+.p-spec-text {
+    color: #fbcd28;
+}
+
+
+/* Text sizes */
+
+.p-lead {
+    font-size: 20px;
+}
+
+.p-sm {
+    font-size: 1rem;
+}
+
+.p-md {
+    font-size: 2rem;
+}
+
+.p-lg {
+    font-size: 3rem;
+}
+
+.p-xl {
+    font-size: 4rem;
+}
+
+
+/*Margin*/
+
+.p-my-1 {
+    margin: 1rem 0;
+}
+
+.p-my-2 {
+    margin: 1.p-5rem 0;
+}
+
+.p-my-3 {
+    margin: 2rem 0;
+}
+
+.p-my-4 {
+    margin: 3rem 0;
+}
+
+.p-my-5 {
+    margin: 4rem 0;
+}
+
+.p-m-1 {
+    margin: 1rem;
+}
+
+.p-m-2 {
+    margin: 1.p-5rem;
+}
+
+.p-m-3 {
+    margin: 2rem;
+}
+
+.p-m-4 {
+    margin: 3rem;
+}
+
+.p-m-5 {
+    margin: 4rem;
+}
+
+
+/*padding*/
+
+.p-py-1 {
+    padding: 1rem 0;
+}
+
+.p-py-2 {
+    padding: 1.5rem 0;
+}
+
+.p-py-3 {
+    padding: 2rem 0;
+}
+
+.p-py-4 {
+    padding: 3rem 0;
+}
+
+.p-py-5 {
+    padding: 4rem 0;
+}
+
+.p-p-1 {
+    padding: 1rem;
+}
+
+.p-p-2 {
+    padding: 1.p-5rem;
+}
+
+.p-p-3 {
+    padding: 2rem;
+}
+
+.p-p-4 {
+    padding: 3rem;
+}
+
+.p-p-5 {
+    padding: 4rem;
+}
